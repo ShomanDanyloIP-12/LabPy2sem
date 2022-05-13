@@ -1,5 +1,13 @@
-from func import*
+from func import *
 
-print("Enter name of file: ")
-name = new_var()
-get_input(name)
+FileName = set_name_of_file()
+get_input(FileName)
+print("________________________________")
+print("Students list:\n")
+output(FileName)
+print("________________________________")
+min_marks(FileName)
+print("________________________________")
+print("Final file: \n")
+new_list(FileName)
+output("output_file.txt")
