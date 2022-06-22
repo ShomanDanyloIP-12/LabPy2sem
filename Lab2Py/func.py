@@ -49,7 +49,6 @@ def if_flow_already_exists(flow_list, flow):
 def min_marks(name):
     with open(name, 'rb') as fileif:
         students = pickle.load(fileif)
-        print(students)
         flow_list = []
         students_with_min = []
         for i in range(len(students)):
